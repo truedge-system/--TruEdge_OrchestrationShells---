@@ -1,5 +1,41 @@
 # --TruEdge_OrchestrationShells---# TruEdge_OrchestrationShells™ — v1.0
+---
 
+## 🔄 v1.1_DocSync – Documentation & Commentary Sync
+> Release Date: 2025-07-25  
+> Scope: Inline headers, commentary links, orchestration clarity  
+
+---
+
+### 🧩 Module Updates
+
+**FusionMaster.ts**
+- ➕ Added branded header block with metadata and version log
+- 📖 Synced commentary: [`docs/FusionMaster_Commentary.md`](./docs/FusionMaster_Commentary.md)
+
+**DropManager.ts**
+- 🧱 DropVault presets tagged with orchestration-ready labels
+- 📖 Commentary scaffold created: [`docs/DropManager_Commentary.md`](./docs/DropManager_Commentary.md)
+
+**CockpitView.ts**
+- 🧭 Visual headers harmonized across diagnostics
+- 📎 Commentary planned for `v1.1.1_PulseSnap`  
+
+---
+
+### 🔗 Navigation Enhancements
+
+- All core modules now link to their commentary MD files
+- Top-level release log created: [`RELEASE_LOG_v1.1_DocSync.md`](./RELEASE_LOG_v1.1_DocSync.md)
+
+---
+
+### 🚀 Next Patch
+
+> `v1.1.1_PulseSnap`  
+> Focus: commentary completion, regime-aware signal intros, orchestration handoffs
+
+---
 Cockpit-grade orchestration shells for fusing overlays, diagnostics, and signal engines into unified scan/export-ready views.
 # TruEdge™ Orchestration Map
 
