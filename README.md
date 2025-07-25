@@ -1,7 +1,29 @@
 # --TruEdge_OrchestrationShells---# TruEdge_OrchestrationShells™ — v1.0
 
 Cockpit-grade orchestration shells for fusing overlays, diagnostics, and signal engines into unified scan/export-ready views.
+# TruEdge™ Orchestration Map
 
+## Signal Flow
+
+1. `TruEdge_TradePlatform`
+   → `LauncherShell.ts` (scan/export)
+   → `FusionMaster.ts` (signal fusion)
+
+2. `TruEdge_VisualSuite`
+   → `ViewportSplitter.ts` → `CockpitView.ts`
+   → `FusionMaster.ts` (overlay sync)
+
+## Regime Sync
+
+- All modules sync via `RegimeBridge.ts`
+- Shared context for overlays, execution, diagnostics
+
+## Deployment Grid
+
+| Module                | Role                        | Sync Target         | Version Tag         |
+|----------------------|-----------------------------|---------------------|---------------------|
+| TradePlatform         | Execution + Journaling      | LauncherShell.ts    | `v1.1_ScanSync`     |
+| VisualSuite           | Overlay + Pulse Logic       | FusionMaster.ts     | `v1.1_OverlaySync`  |
 ## 🔧 Shell Modules
 | File | Purpose |
 |------|---------|
